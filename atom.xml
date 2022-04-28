@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-04-28T10:06:35.329Z</updated>
+  <updated>2022-04-28T10:19:07.650Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,16 +21,10 @@
     <link href="http://example.com/2022/04/28/SQL/"/>
     <id>http://example.com/2022/04/28/SQL/</id>
     <published>2022-04-28T10:00:14.000Z</published>
-    <updated>2022-04-28T10:06:35.329Z</updated>
+    <updated>2022-04-28T10:19:07.650Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;SQL基础&quot;&gt;&lt;a href=&quot;#SQL基础&quot; class=&quot;headerlink&quot; title=&quot;SQL基础&quot;&gt;&lt;/a&gt;SQL基础&lt;/h1&gt;&lt;h2 id=&quot;SELECT&quot;&gt;&lt;a href=&quot;#SELECT&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">sql基础，基本增删查改语法</summary>
     
     
     
