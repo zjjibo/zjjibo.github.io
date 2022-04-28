@@ -17,15 +17,16 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="ZZZ&#39;s Blog">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="ZZZ&#39;s Blog">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="Zj_Jibo">
+<meta property="article:tag" content="enjoy time,enjoy life">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://example.com/">
@@ -41,7 +42,7 @@
   };
 </script>
 
-  <title>Hexo</title>
+  <title>ZZZ's Blog</title>
   
 
 
@@ -72,6 +73,7 @@
   </style>
 </noscript>
 
+<link rel="alternate" href="/atom.xml" title="ZZZ's Blog" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -92,13 +94,14 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Hexo</h1>
+      <h1 class="site-title">ZZZ's Blog</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -118,11 +121,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -145,16 +175,118 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/28/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/28/SQL/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="image" content="/images/avatar2.jpg">
+      <meta itemprop="name" content="Zj_Jibo">
       <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="ZZZ's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/04/28/SQL/" class="post-title-link" itemprop="url">SQL</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2022-04-28 18:00:14 / Modified: 18:06:35" itemprop="dateCreated datePublished" datetime="2022-04-28T18:00:14+08:00">2022-04-28</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="SQL基础"><a href="#SQL基础" class="headerlink" title="SQL基础"></a>SQL基础</h1><h2 id="SELECT"><a href="#SELECT" class="headerlink" title="SELECT"></a>SELECT</h2><blockquote>
+<p>基本语法</p>
+</blockquote>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> `column_name`</span><br><span class="line"><span class="keyword">FROM</span> `table_name`;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>使用<code>DISTINCT</code>使查询不重复<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">DISTINCT</span> `column_name`</span><br><span class="line"><span class="keyword">FROM</span> `table_name`</span><br></pre></td></tr></table></figure></p>
+<p><code>SELECT WHERE</code> 语句是筛选查询很重要的操作，<code>WHERE</code> 关键字后面加上条件可以过滤掉我们不需要的信息，对查询效率有着很大的提高。<br>在使用 <code>SELECT WHERE</code> 语句检索表数据时，需要给出检索的表名 (table_name)、检索的列名 (column_name) 和操作符 (operator) 。</p>
+</blockquote>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> `column_name1`,`column_name2`…</span><br><span class="line"><span class="keyword">FROM</span> `table_name`</span><br><span class="line"><span class="keyword">WHERE</span> `column_name` operator `<span class="keyword">value</span>`;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>column_name 对应指定列的名称，或者是多列，用逗号（ <code>,</code> ）分隔开</li>
+<li>table_name 对应查询表的名称</li>
+<li><p>operator 为操作符![[sql条件运算#比较运算符]]，常用的有等于 <code>=</code> 、小于 <code>&lt;</code> 、大于 <code>&gt;</code> 、不等于<code>&lt;&gt;</code> 或 <code>!=</code>。</p>
+<blockquote>
+<p>select后面要输出的信息如果是全部信息就跟*就可以， from后都是跟上来自哪个表 where就是后面跟的就是条件，记得非数字的加上单引号就可以了。</p>
+</blockquote>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span><span class="operator">*</span></span><br><span class="line"><span class="keyword">from</span> courses</span><br><span class="line"><span class="keyword">where</span> name<span class="operator">=</span><span class="string">&#x27;Artificial Intelligence&#x27;</span>;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="INSERT"><a href="#INSERT" class="headerlink" title="INSERT"></a>INSERT</h2><blockquote>
+<p><strong>INSERT INTO</strong> 语句用于向表中插入新记录，这边介绍两种编写形式，第一种形式无需指定列名，第二种形式需要指定列名。</p>
+</blockquote>
+<h3 id="第一种方式"><a href="#第一种方式" class="headerlink" title="第一种方式"></a>第一种方式</h3><blockquote>
+<p>第一种形式，<code>不需要指定列名</code>。只需提供插入的数据即可。</p>
+</blockquote>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> `table_name`</span><br><span class="line"><span class="keyword">VALUES</span> (value1, value2, value3,...);</span><br></pre></td></tr></table></figure>
+<h4 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> `courses` <span class="keyword">VALUES</span> (<span class="number">13</span>,<span class="string">&#x27;Python&#x27;</span>,<span class="string">&#x27;400&#x27;</span>,<span class="string">&#x27;2021-05-23&#x27;</span>,<span class="number">3</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="第二种方式"><a href="#第二种方式" class="headerlink" title="第二种方式"></a>第二种方式</h3><blockquote>
+<p>这种形式需要指定列名，语法如下：</p>
+</blockquote>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> `table_name`</span><br><span class="line">(`column1`, `column2`, `column3`,...)</span><br><span class="line"><span class="keyword">VALUES</span> (value1, value2, value3,...);</span><br></pre></td></tr></table></figure>
+<h4 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> `courses` (`name`, `student_count`, `created_at`, `teacher_id`) <span class="keyword">VALUES</span> (<span class="string">&#x27;Flash Sale&#x27;</span>,<span class="string">&#x27;100&#x27;</span>,<span class="string">&#x27;2018-01-01&#x27;</span>,<span class="number">5</span>);</span><br></pre></td></tr></table></figure>
+<h2 id="UPDATE"><a href="#UPDATE" class="headerlink" title="UPDATE"></a>UPDATE</h2><blockquote>
+<p>基本语法<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> `table_name`</span><br><span class="line"><span class="keyword">SET</span> `column1`<span class="operator">=</span>value1,`column2`<span class="operator">=</span>value2,...</span><br><span class="line"><span class="keyword">WHERE</span> `some_column`<span class="operator">=</span>some_value;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h4 id="实例-2"><a href="#实例-2" class="headerlink" title="实例"></a>实例</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> `teachers`</span><br><span class="line"><span class="keyword">SET</span> `email` <span class="operator">=</span> <span class="string">&#x27;LinghuChong@lintcode.com&#x27;</span></span><br><span class="line"><span class="keyword">WHERE</span> `name` <span class="operator">=</span> <span class="string">&#x27;Linghu Chong&#x27;</span>;</span><br></pre></td></tr></table></figure>
+<h2 id="DELETE"><a href="#DELETE" class="headerlink" title="DELETE"></a>DELETE</h2><blockquote>
+<p>基本语法</p>
+</blockquote>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DELETE</span> <span class="keyword">FROM</span> `table_name`</span><br><span class="line"><span class="keyword">WHERE</span> `some_column` <span class="operator">=</span> `some_value`;</span><br></pre></td></tr></table></figure>
+<h4 id="实例-3"><a href="#实例-3" class="headerlink" title="实例"></a>实例</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DELETE</span> <span class="keyword">FROM</span> `courses` <span class="keyword">WHERE</span> `name`<span class="operator">=</span><span class="string">&#x27;Dynamic Programming&#x27;</span>;</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">truncate</span> courses;</span><br></pre></td></tr></table></figure>
+<h4 id="delete和truncate的区别"><a href="#delete和truncate的区别" class="headerlink" title="delete和truncate的区别"></a>delete和truncate的区别</h4><p>1、在功能上，truncate是清空一个表的内容，它相当于delete from table_name。<br>2、delete是dml操作，truncate是ddl操作；因此，用delete删除整个表的数据时，会产生大量的roolback，占用很多的rollback segments， 而truncate不会。<br>3、在内存中，用delete删除数据，表空间中其被删除数据的表占用的空间还在，便于以后的使用，另外它是“假相”的删除，相当于windows中用delete删除数据是把数据放到回收站中，还可以恢复，当然如果这个时候重新启动系统（OS或者RDBMS），它也就不能恢复了！<br>而用truncate清除数据，内存中表空间中其被删除数据的表占用的空间会被立即释放，相当于windows中用shift+delete删除数据，不能够恢复！<br>4、truncate 调整high water mark 而delete不；truncate之后，TABLE的HWM退回到 INITIAL和NEXT的位置（默认）delete 则不可以。<br>5、truncate 只能对TABLE，delete 可以是table,view,synonym。<br>6、TRUNCATE TABLE 的对象必须是本模式下的，或者有drop any table的权限 而 DELETE 则是对象必须是本模式下的，或被授予 DELETE ON SCHEMA.TABLE 或DELETE ANY TABLE的权限。<br>7、在外层中，truncate或者delete后，其占用的空间都将释放。<br>8、truncate和delete只删除数据，而drop则删除整个表（结构和数据）。</p>
+<h4 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h4><p>1.TRUNCATE TABLE是非常快的<br>2.TRUNCATE之后的自增字段从头开始计数了，而DELETE的仍保留原来的最大数值 </p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/28/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar2.jpg">
+      <meta itemprop="name" content="Zj_Jibo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ZZZ's Blog">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -269,7 +401,9 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">John Doe</p>
+    <img class="site-author-image" itemprop="image" alt="Zj_Jibo"
+      src="/images/avatar2.jpg">
+  <p class="site-author-name" itemprop="name">Zj_Jibo</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -277,9 +411,13 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">posts</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span>
       </div>
   </nav>
 </div>
@@ -309,11 +447,88 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">Zj_Jibo</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
   </div>
-
+<!--浏览器搞笑标题-->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/hititle.js"></script>
+<!-- 雪花飘落 -->
+<!-- <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/snow1.js"></script> -->
+<!-- // 文字 -->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/shehuizhuyi.js"></script>
+<!-- // 烟花 -->
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/fireworks.js"></script>
+<!-- // 星星跟随坠落 -->
+<script src="https://cdn.jsdelivr.net/gh/cungudafa/cdn@2.1.2/js/cursor.js"></script>
+<!-- // 爱心 -->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script> -->
+<!-- 样式二（飘动的彩带） -->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/piao.js" type="text/javascript"></script>
+ <!--背景切换-->
+ <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="site-info">
+    <div class="footertext">
+      。。。。。
+    </div>
+    <div class="footer-device">
+    <p style="font-family: 'Ubuntu', sans-serif;">
+        <span style="color: #b9b9b9;">Theme <a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> by <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>&<a href="https://www.hojun.cn/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>, Powered by Hexo, Hosted by Coding Pages</a>
+        </span>
+      </p>
+    </div>
+    <!-- <i class="fa fa-fire" aria-hidden="true"></i> -->
+    <span style="color: #ccc;padding-left: 20px;">
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      <span id="time" align="center">载入时间中...</span>
+      <script>
+        var now = new Date(); 
+        function createtime() { 
+          var grt= new Date("2022-04-28 15:00:00");//在此处修改你的建站时间
+          now.setTime(now.getTime()+250); 
+          days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+          hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+          if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+          mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+          seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+          snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+          document.getElementById("time").innerHTML = "小站已经苟活 "+ dnum +" 天 "+hnum + " 小时 " + mnum + " 分 " + snum + " 秒";      
+       } 
+       setInterval("createtime()",250);
+      </script>
+      <!--不蒜子网页计数器-->
+      <span style="color:#ccc;padding-left: 20px;"><i class="fa fa-eye" aria-hidden="true"></i>访问量: <span id="busuanzi_value_site_pv"></span>次</span>
+    </span>
+  </div><!-- .site-info -->
+  <!--壁纸切换-->
+  <div class="skin-menu no-select" id="mainskin"  style="position: fixed">
+      <div class="theme-controls row-container">
+          <ul class="menu-list">
+              <li id="white-bg"> <i class="fa fa-television" aria-hidden="true"></i></li>
+              <li id="sakura-bg"> <i class="iconfont icon-sakura"></i></li>
+              <li id="gribs-bg"> <i class="fa fa-slack" aria-hidden="true"></i></li>
+              <li id="KAdots-bg"> <i class="iconfont icon-dots"></i></li>
+              <li id="totem-bg"> <i class="fa fa-optin-monster" aria-hidden="true"></i></li>
+              <li id="pixiv-bg"> <i class="iconfont icon-pixiv"></i></li>
+              <li id="bing-bg"> <i class="iconfont icon-bing"></i></li>
+              <li id="dark-bg"> <i class="fa fa-moon-o" aria-hidden="true"></i></li>
+          </ul>
+      </div>
+      <div class="font-family-controls row-container">
+          <button type="button" class="control-btn-serif selected" data-mode="serif" onclick="mashiro_global.font_control.change_font()">Serif</button>
+          <button type="button" class="control-btn-sans-serif" data-mode="sans-serif" onclick="mashiro_global.font_control.change_font()">Sans Serif</button>
+      </div>
+  </div>   
+  <canvas id="night-mode-cover"></canvas> 
+    <div class="changeSkin-gear no-select">
+      <div class="keys" id="setbtn"> <span id="open-skinMenu"> 切换壁纸 | SCHEME TOOL 
+        &nbsp;<i class="iconfont icon-gear inline-block rotating"></i> </span></div>
+  </div><!--skin.end-->
+</footer>
         
 
 
@@ -350,6 +565,10 @@
 
 
 
+  
+<script src="/js/local-search.js"></script>
+
+
 
 
 
@@ -365,5 +584,7 @@
 
   
 
-</body>
+  
+
+<script src="/live2d_models/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2d_models/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2d_models/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script></body>
 </html>
